@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/imagecalc.jpeg" type="image/x-icon">
+    <title>Calculator || Healer's Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+<div class = "calcBody">
+        <input id ="display" class = "disBox" type="text" readonly>
+
+    <div class = "buttonHolder">
+        <div class = "buttonh"><button id = "but" onclick="appendNumber('7')">7</button></div>
+        <div class = "buttonh"><button id = "but1" onclick="appendNumber('8')">8</button></div>
+        <div class = "buttonh"><button id = "but" onclick="appendNumber('9')">9</button></div>
+
+        <div class = "buttonh"><button id = "but" onclick="appendNumber('4')">4</button></div>
+        <div class = "buttonh"><button id = "but" onclick="appendNumber('5')">5</button></div>
+        <div class = "buttonh"><button id = "but" onclick="appendNumber('6')">6</button></div>
+
+        <div class = "buttonh"><button id = "but" onclick="appendNumber('1')">1</button></div>
+        <div class = "buttonh"><button id = "but" onclick="appendNumber('2')">2</button></div>
+        <div class = "buttonh"><button id = "but" onclick="appendNumber('3')">3</button></div>
+
+        <div class = "buttonh"><button id = "but" onclick="appendNumber('0')">0</button></div>
+        <div class = "buttonh"><button id = "but" onclick="appendOperator('+')">+</button></div>
+        <div class = "buttonh"><button id = "but" onclick="appendOperator('/')">/</button></div>
+
+        <div class = "buttonh"><button id = "but" onclick="appendOperator('-')">-</button></div>
+        <div class = "buttonh"><button id = "but" onclick="appendOperator('*')">x</button></div>
+        <div class = "buttonh"><button id = "but" onclick="calculate()" id="equal">=</button></div>
+
+    
+        
+        <div class="buttonh" id="clear"><button id="but" class="clearC" onclick="clearDisplay()">C</button></div>
+    </div>
+
+</div> 
+
+   <script src="/calc.js"></script> 
+</body>
+</html>

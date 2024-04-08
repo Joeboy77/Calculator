@@ -1,0 +1,87 @@
+
+body{
+    margin-top: 100px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #cacaca;
+}
+
+.calcBody{
+    display:flex;
+    flex-direction:column;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;
+    height: 550px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgb(186, 199, 210);   
+    box-shadow: 6px 10px 10px 10px ;
+}
+
+
+.disBox{
+    height:80px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 2px rgba(0,0,0,0.1);
+    background-color: #f1ffcc;
+    font-family: Arial;
+    font-size:30px;
+
+}
+.disBox:focus{
+    outline: none;
+    color: black;
+}
+
+.buttonHolder{
+    display: inline-grid;
+    grid-template-columns:auto auto auto;
+    width:250px;
+    height: 350px;
+    margin-top: 30px;
+    column-gap: 5px;
+    row-gap: 5px;
+    border-radius:5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    
+}
+.buttonh{
+    display: block;
+    flex-direction: column;
+    border:none;
+    border-radius: 3px;
+    margin:auto;
+    
+    
+}
+button{
+    background-color: rgb(244, 241, 241);
+    width: 75px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    box-shadow: 0 0 3px rgba(227, 158, 19, 0.938);
+    
+   
+}
+button:hover{
+    background-color: rgba(244, 241, 241, 0.386);
+    transition: 1s;
+}
+button:active{
+    background-color: rgba(88, 169, 206);
+    transition: none;
+    
+}
+
+
+
